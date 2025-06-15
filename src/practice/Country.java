@@ -9,6 +9,7 @@ public class Country {
 		  int dummyCounter;
 
 		  public static void main(String[] args) {
+			  System.out.println(countryCounter);
 		    // Creating first instance
 		    Country ob1 = new Country();
 
