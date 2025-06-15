@@ -1,6 +1,6 @@
 package day5_oopsSession2;
 
-public class Qusetion {
+public class Qusetion_Library_Management_System {
 //	Build a library system where:
 //		• The library can have Books, magazines and
 //		Journals.
