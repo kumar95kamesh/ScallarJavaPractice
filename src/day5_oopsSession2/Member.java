@@ -31,6 +31,9 @@ public class Member extends User {
 //		return false;
 	}
 	
-
+	@Override
+	public void returnBook() {
+		borrowedBooksCount--;//after returning any book for this member this will be the change.
+	}
 
 }

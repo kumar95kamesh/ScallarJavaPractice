@@ -44,6 +44,7 @@ public abstract class User {
 	
 	abstract void displayDashboard();
 	abstract boolean canBorrowBooks();
+	public abstract void returnBook();//for any member if he returns book.
 	
 	private final String generateUniqueId() { //final so no child class can change it. 
 											//and private so koi bhi new user ko create hi user na bna de.

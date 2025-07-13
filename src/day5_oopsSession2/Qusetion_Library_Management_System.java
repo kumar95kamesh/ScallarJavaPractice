@@ -33,5 +33,14 @@ Represent User structure
 • Implement generateUniqueId using Static
 and Final Concepts
 	 */
+	
+	/**Milestone B:
+	 * Implementation of functionality of Lending
+of Books
+
+• Create the Lendable Interface
+• Implement the Abstract Book Class
+• Create TextBook & NovelBook Class
+	 */
 
 }
