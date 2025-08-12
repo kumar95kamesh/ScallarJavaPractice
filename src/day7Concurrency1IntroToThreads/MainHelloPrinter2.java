@@ -1,4 +1,4 @@
-package day7Cponcurrency1IntroToThreads;
+package day7Concurrency1IntroToThreads;
 
 public class MainHelloPrinter2 {
 
