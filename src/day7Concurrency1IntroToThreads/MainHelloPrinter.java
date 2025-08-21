@@ -6,7 +6,7 @@ public class MainHelloPrinter {
 		HelloPrinter h=new HelloPrinter();
 		// OR
 //		Runnable h=new HelloPrinter();
-		Thread t=new Thread(h);//thread class will need input.. just go and check out this class
+		Thread t=new Thread(h);//thread class will need input.. just go and check out this Thread class
 		t.start();//This method will start thread.
 		/**
 		 * Generally in java program runs in main thread.. but in this way we are telling java to execute 
@@ -17,8 +17,8 @@ public class MainHelloPrinter {
 		System.out.println(Thread.currentThread().getName()+" ==normal thread==");
 		
 		/**
-		 * line number 10 runs first then 17 but getting o/p of 17 first.. this is happening bcoz main thread is 
-		 * alread there.. so this thread runs fast.. for other one it creates thread then execute 10 line..
+		 * line number 10(t.start()) runs first then 17(syso) but getting o/p of 17 first.. this is happening bcoz main thread is 
+		 * already there.. so this thread runs fast.. for other one it creates thread then execute 10 line..
 		 * this is showing both are running in different threads.
 		 */
 		
