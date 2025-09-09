@@ -31,6 +31,8 @@ public class P2_AnimalUtility {
 		return animals;
 	}
 
+	//WILD CARD
+	
 	/**
 	 * upper one can be written like this also.. it means any list which extends animal.
 	 * in upper one we used T just because of the return purpose.... like which data type it should return.
