@@ -1,4 +1,4 @@
-package Decorator;
+package day122_BackendLLDDesignPatternsDecoratorandFlyweightDesign;
 
 public class DarkRoast implements Beverage{
 

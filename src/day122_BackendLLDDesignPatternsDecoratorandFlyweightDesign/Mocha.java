@@ -1,4 +1,4 @@
-package Decorator;
+package day122_BackendLLDDesignPatternsDecoratorandFlyweightDesign;
 
 public class Mocha extends AddOn{
     public Mocha(Beverage b) {

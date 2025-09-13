@@ -1,9 +1,4 @@
-package Decorator;
-
-public interface Beverage {
-    void getDesc();
-    int getCost();
-}package Decorator;
+package day122_BackendLLDDesignPatternsDecoratorandFlyweightDesign;
 
 public abstract class AddOn implements Beverage{
     Beverage b;
